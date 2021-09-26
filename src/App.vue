@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link :to="{ name: 'profile', params: { username: 'Saeed.Sajadi' } }" >Profile</router-link> |
-    <router-link to="/product/12/shoes">Shoes Product</router-link>
+    <router-link to="/users">Users</router-link>
 
   </div>
   <router-view/>
